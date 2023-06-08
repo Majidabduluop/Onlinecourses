@@ -1,13 +1,11 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
-import Hero from "../components/Hero";
-const Home = () => {
+const Courses = () => {
   return (
     <>
       <Navbar />
-      <Hero />
     </>
   );
 };
 
-export default Home;
+export default Courses;
