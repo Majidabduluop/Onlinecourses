@@ -29,7 +29,7 @@ export const courses = [
     title: "Blogging for beginners",
     price: 150,
     current: 100,
-    img: "./src/images/blogging",
+    img: "./src/images/blogging.jpg",
     instructor: "Lisa",
   },
   {
