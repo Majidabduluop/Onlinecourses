@@ -1,4 +1,5 @@
 import React from "react";
+import { BsCartPlusFill } from "react-icons/bs";
 import "./courses.scss";
 const Course = ({ id, img, title, current, price, instructor }) => {
   return (
@@ -11,7 +12,11 @@ const Course = ({ id, img, title, current, price, instructor }) => {
         <h4>By : {instructor}</h4>
         <span className="price">${price}</span>
         <span className="current">${current}</span>
-        <button className="add-to-cart">add to cart</button>
+      </div>
+      <div className="add-to-cart">
+        <button className="btn">
+          <BsCartPlusFill />
+        </button>
       </div>
     </article>
   );
