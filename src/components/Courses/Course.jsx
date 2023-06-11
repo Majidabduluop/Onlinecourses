@@ -1,6 +1,5 @@
 import React from "react";
 import { BsCartPlusFill } from "react-icons/bs";
-
 const Course = ({ id, img, title, current, price, instructor }) => {
   return (
     <article className="course">
