@@ -13,7 +13,7 @@ export const courses = [
     title: "Trading masterclass",
     price: 200,
     current: 150,
-    img: "./src/images/trading.jpg",
+    img: "/images/trading.jpg",
     instructor: "Peter",
   },
   {
@@ -21,7 +21,7 @@ export const courses = [
     title: "Artificial intelligence",
     price: 300,
     current: 200,
-    img: "./src/images/ai.jpg",
+    img: "/images/ai.jpg",
     instructor: "Moris",
   },
   {
@@ -29,7 +29,7 @@ export const courses = [
     title: "Blogging for beginners",
     price: 150,
     current: 100,
-    img: "./src/images/blogging.jpg",
+    img: "/images/blogging.jpg",
     instructor: "Lisa",
   },
   {
@@ -37,7 +37,7 @@ export const courses = [
     title: "Cyber security masterclass",
     price: 450,
     current: 350,
-    img: "./src/images/cyber-security.jpg",
+    img: "/images/cyber-security.jpg",
     instructor: "John",
   },
   {
@@ -45,7 +45,7 @@ export const courses = [
     title: "Blockchain",
     price: 350,
     current: 250,
-    img: "./src/images/blockchain.jpg",
+    img: "/images/blockchain.jpg",
     instructor: "Steven",
   },
   {
@@ -53,7 +53,7 @@ export const courses = [
     title: "Digital marketing",
     price: 150,
     current: 80,
-    img: "./src/images/dm.jpg",
+    img: "/images/dm.jpg",
     instructor: "Shauna",
   },
   {
@@ -61,7 +61,7 @@ export const courses = [
     title: "Drawing",
     price: 100,
     current: 50,
-    img: "./src/images/drawing.jpg",
+    img: "/images/drawing.jpg",
     instructor: "Charlie",
   },
   {
@@ -69,7 +69,7 @@ export const courses = [
     title: "Flutter development",
     price: 200,
     current: 120,
-    img: "./src/images/flutter.jpg",
+    img: "/images/flutter.jpg",
     instructor: "Fiona Watson",
   },
   {
@@ -77,7 +77,7 @@ export const courses = [
     title: "Leadership skills",
     price: 150,
     current: 100,
-    img: "./src/images/leadership.jpg",
+    img: "/images/leadership.jpg",
     instructor: "Liam Miller",
   },
   {
@@ -85,7 +85,7 @@ export const courses = [
     title: "NodeJS",
     price: 180,
     current: 150,
-    img: "./src/images/nodejs.jpg",
+    img: "/images/nodejs.jpg",
     instructor: "John Smilga",
   },
   {
@@ -93,7 +93,7 @@ export const courses = [
     title: "Online courses creation",
     price: 100,
     current: 70,
-    img: "./src/images/online.jpg",
+    img: "/images/online.jpg",
     instructor: "Chris",
   },
   {
@@ -101,7 +101,7 @@ export const courses = [
     title: "Programming basics",
     price: 100,
     current: 60,
-    img: "./src/images/programming.jpg",
+    img: "/images/programming.jpg",
     instructor: "Hitesh",
   },
   {
@@ -109,7 +109,7 @@ export const courses = [
     title: "ReactJS development",
     price: 200,
     current: 150,
-    img: "./src/images/reactjs.jpg",
+    img: "/images/reactjs.jpg",
     instructor: "John Smilga",
   },
   {
@@ -117,7 +117,7 @@ export const courses = [
     title: "S.E.O",
     price: 150,
     current: 100,
-    img: "./src/images/seo.jpg",
+    img: "/images/seo.jpg",
     instructor: "Louise",
   },
 ];
