@@ -5,7 +5,7 @@ export const courses = [
     title: "HTML,CSS and JS",
     price: 150,
     current: 100,
-    img: "./src/images/htmlcss.jpg",
+    img: "/images/htmlcss.jpg",
     instructor: "John",
   },
   {
