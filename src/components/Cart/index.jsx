@@ -1,6 +1,6 @@
 import React from "react";
 import { MdDelete } from "react-icons/md";
-const index = ({ id, title, current, instructor, img }) => {
+const index = ({ id, title, current, instructor, img, deleteCourse }) => {
   return (
     <>
       <tr>
@@ -12,7 +12,7 @@ const index = ({ id, title, current, instructor, img }) => {
         <td>{instructor}</td>
         <td>${current}</td>
         <td>
-          <button>
+          <button onClick={() => deleteCourse(id)}>
             <MdDelete />
           </button>
         </td>

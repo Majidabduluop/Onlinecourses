@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Table from "../components/Cart";
 import "../components/Cart/Cart.scss";
-const Cart = ({ enrolledCourses }) => {
+const Cart = ({ enrolledCourses, deleteCourse }) => {
   if (enrolledCourses.length > 0) {
     return (
       <>
@@ -22,8 +22,13 @@ const Cart = ({ enrolledCourses }) => {
             </thead>
             <tbody>
               {enrolledCourses.map((course) => {
-                console.log(course.id);
-                return <Table key={course.id} {...course} />;
+                return (
+                  <Table
+                    key={course.id}
+                    {...course}
+                    deleteCourse={deleteCourse}
+                  />
+                );
               })}
             </tbody>
           </table>
