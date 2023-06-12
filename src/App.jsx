@@ -3,7 +3,6 @@ import "./App.scss";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Courses from "./pages/Courses";
 import Cart from "./pages/Cart";
 
 const App = () => {

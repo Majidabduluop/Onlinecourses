@@ -1,0 +1,42 @@
+footer {
+  background-color: #0abde3;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  vertical-align: middle;
+  h4 {
+    color: #c8d6e5;
+    font-size: 1rem;
+  }
+}
+.social-links {
+  list-style: none;
+  li {
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: 5px;
+    a {
+      color: #fff;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    h4 {
+      font-size: 1.5rem;
+    }
+  }
+  .social-links {
+    li a {
+      font-size: 1.5rem;
+      transition: all 0.5s linear;
+      text-decoration: none;
+      &:hover {
+        color: #576574;
+      }
+    }
+  }
+}
