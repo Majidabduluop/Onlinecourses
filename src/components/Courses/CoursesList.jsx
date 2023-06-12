@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Course from "./Course";
 import { courses } from "./CoursesData";
 import "./Courses.scss";
 const CoursesList = () => {
+  const addToCart = (id) => {};
   return (
     <section id="courses">
       <h1>our courses</h1>
