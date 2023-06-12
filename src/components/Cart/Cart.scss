@@ -17,7 +17,7 @@ table {
   margin-left: auto;
   margin-right: auto;
   border: 2px solid #f1f2f6;
-  background-color: #bdc3c7;
+  background-color: #ecf0f1;
   thead th {
     position: sticky;
     top: 0;
@@ -29,7 +29,7 @@ table {
   th,
   td {
     border-bottom: 1px solid #ddd;
-    word-break: break-all;
+    // word-break: break-all;
     padding: 10px 20px;
     text-align: center;
     transition: all 0.5s linear;
@@ -42,7 +42,7 @@ table {
     border: 1px solid #2980b9;
   }
   tr:hover td {
-    color: #2980b9;
+    color: #fff;
     background-color: #95a5a6;
   }
   td button {

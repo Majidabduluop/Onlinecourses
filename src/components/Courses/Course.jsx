@@ -1,6 +1,6 @@
 import React from "react";
 import { BsCartPlusFill } from "react-icons/bs";
-const Course = ({ id, img, title, current, price, instructor }) => {
+const Course = ({ id, img, title, current, price, instructor, addCourse }) => {
   return (
     <article className="course">
       <div className="img-container">
@@ -13,7 +13,12 @@ const Course = ({ id, img, title, current, price, instructor }) => {
         <span className="current">${current}</span>
       </div>
       <div className="add-to-cart">
-        <button className="btn">
+        <button
+          className="btn"
+          onClick={() => {
+            addCourse(id);
+          }}
+        >
           <BsCartPlusFill />
         </button>
       </div>
