@@ -10,7 +10,7 @@ const index = () => {
         <p>special offer all courses for $15</p>
         <div className="buttons">
           <Link to={"/about"}>About</Link>
-          <Link to="/courses">Courses</Link>
+          <Link to="/cart">My Cart</Link>
         </div>
       </div>
     </section>
