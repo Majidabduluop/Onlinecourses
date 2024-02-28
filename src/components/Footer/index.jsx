@@ -8,17 +8,17 @@ const index = () => {
       <h4>Developed By Abdul Majid</h4>
       <ul className="social-links">
         <li>
-          <Link to={"https://github.com/hassanalee"} target="_blank">
+          <Link>
             <FaGithub />
           </Link>
         </li>
         <li>
-          <Link to={"https://linkedin.com/in/hassanale"} target="_blank">
+          <Link>
             <FaLinkedin />
           </Link>
         </li>
         <li>
-          <Link to={"https://instagram.com/me.hassanali"} target="_blank">
+          <Link>
             <FaInstagram />
           </Link>
         </li>
