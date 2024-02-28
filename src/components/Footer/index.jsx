@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const index = () => {
   return (
     <footer>
-      <h4>Developed By Hassan Ali</h4>
+      <h4>Developed By Abdul Majid</h4>
       <ul className="social-links">
         <li>
           <Link to={"https://github.com/hassanalee"} target="_blank">
